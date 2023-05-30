@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Level-2 || Task-3 || ToDo App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="banner">
+        <img src="./img/banner-img.png" alt="" />
+        <h3 class="title">To<span>Do</span> App</h3>
+        <p>Organize your work and life efficiently</p>
+      </div>
+    </header>
+
+    <div class="wrapper">
+      <div class="task-input">
+        <i class="fas fa-list-check"></i>
+        <input type="text" placeholder="Add a new task ..." />
+      </div>
+      <div class="controls">
+        <div class="filters">
+          <span id="all" class="active">All</span>
+          <span id="pending">Pending</span>
+          <span id="completed">Completed</span>
+        </div>
+        <button class="clear-btn">Clear All</button>
+      </div>
+      <ul class="task-box"></ul>
+    </div>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
